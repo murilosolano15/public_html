@@ -1,0 +1,60 @@
+/**
+* Estudo Layout - Responsivo
+* #author Murilo Solano Oliva
+*/
+
+
+body{
+    font-family: sans-serif;
+}
+#menu{
+    background-color: #096600;
+    position: fixed;
+
+}
+
+h1{
+    color: #096600
+}
+#frase1{
+    background-color: #27C611;
+    padding: 50px; /* box model - interno*/
+    position: absolute;
+    color: #ffffff;
+    margin-top: 30px;
+}
+#frase2{
+    background-color: #ffffff;
+    padding: 50px; /* box model - interno*/
+    position: static;
+    color: #27C611;
+}
+#frase3{
+    background-color: #27C611;
+    padding: 50px; /* box model - interno*/
+    position: static;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 480px){
+    
+    /*************** principal *****************/
+    body{
+        margin: 0; /* Zera todas as margens */
+    }
+h1{
+    margin: 0 auto;
+} 
+
+#menu{
+
+    width: 200px;
+    background-color: #ffffff;
+    padding: 30px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+}

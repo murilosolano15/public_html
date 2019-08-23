@@ -1,0 +1,36 @@
+/**
+*estudo do float
+*@author Murilo Solano Oliva
+*/
+
+/*
+float: right (flutua a direita do elemento anterior)
+float: left  (flutua a esquerda do elemento anterior)
+*/
+#main{
+    height: 750px;
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+#vermelho{
+    width: 250px;
+    height: 250px;
+    background-color: #ff0000;
+    float: left;
+}
+
+#verde{
+    width: 250px;
+    height: 250px;
+    background-color: #00ff00;
+    float: left;
+}
+#azul{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    float: left;
+}
