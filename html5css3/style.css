@@ -9,7 +9,7 @@
 /*************** Principal *****************/
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: #e8e8e8;
+    background-color: #ffffff;
 }
 
 /*
@@ -27,7 +27,7 @@ body{
 /******************* header *********************/
 header{
     width: 100%;
-    background-color: #ffff00;
+
 }
 
   /* é possível redimensionar a imagem diretamente pelo CSS */
@@ -42,8 +42,17 @@ header{
  */
 
  #social{
-     background-color: #e8e8e8;
+     
      float:right; 
+     /*margin-top: 20px;
+     margin-right: 20px;*/
+     /* box model completo top, rith, bottom, left*/
+    /* margin: 20px 20px 0px 0px;*/
+     /* box model completo*/
+    padding: 20px 20px 0px 0px;
+ }
+ #logo{
+     padding: 20px;
  }
 
 
@@ -72,9 +81,10 @@ com tamanho de até 480px */
         text-align: center; /* centralizar todos elementos */
     }
 
-    header img{
-        margin: 0 auto;
-        margin-top: 50px;
+    #social{
+        float: none;
+        padding-right: 0;
+        
     }
 
 
